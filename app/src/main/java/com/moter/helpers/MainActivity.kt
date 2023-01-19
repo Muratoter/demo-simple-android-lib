@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Log.d("MainActivity", Sydney.suburbs.toString())
+        Log.d("MainActivity", Melbourne.suburbs.toString())
 
     }
 }
