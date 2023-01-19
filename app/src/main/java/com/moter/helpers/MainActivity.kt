@@ -3,6 +3,7 @@ package com.moter.helpers
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.moter.sydneysuburbs.Brisbane
 import com.moter.sydneysuburbs.Sydney
 
 class MainActivity : AppCompatActivity() {
@@ -11,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Log.d("MainActivity", Sydney.suburbs.toString())
+        Log.d("MainActivity", Brisbane.suburbs.toString())
         Log.d("MainActivity", Melbourne.suburbs.toString())
 
     }
