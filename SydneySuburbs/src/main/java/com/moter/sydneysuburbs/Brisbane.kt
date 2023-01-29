@@ -1,5 +1,5 @@
 package com.moter.sydneysuburbs
 
 object Brisbane {
-    val suburbs = listOf("Ipswich", "Thornlands","Test")
+    val suburbs = listOf("Ipswich", "Thornlands","Bulwer Island","")
 }
